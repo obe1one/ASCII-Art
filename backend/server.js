@@ -6,7 +6,7 @@ const { createVerify } = require("crypto")
 const app = express()
 const server = http.createServer(app)
 const wss = new WebSocket.Server({ server })
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 5241
 
 const baseASCII = 10240
 const power2 = [1, 2, 4, 8, 16, 32, 64, 128]

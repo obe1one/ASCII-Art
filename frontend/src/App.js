@@ -1,7 +1,7 @@
 import './App.css'
 import React, { useEffect, useState } from 'react'
 
-const client = new WebSocket('ws://localhost:4000')
+const client = new WebSocket('ws://140.112.30.33:5241')
 
 
 function App() {
