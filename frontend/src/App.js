@@ -115,7 +115,7 @@ function App() {
             <img src={image} id="upload-image" onLoad={handleThresholding}/>
           </div>
           <div className="grayscale-image">
-            <p> Grayscale picture: </p>
+            <p> Binarized picture: </p>
             <img src={grayscaleImage} id="grayscale-image"></img>
           </div>
         </div>
