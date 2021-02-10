@@ -6,7 +6,7 @@
   "author": "obe1 <b07902046@ntu.edu.tw>",
   "license": "MIT",
   "scripts": {
-    "start": "cd frontend && react-scripts start",
+    "start": "PORT=8321 cd frontend && react-scripts start",
     "build": "cd frontend && react-scripts build",
     "test": "cd frontend && react-scripts test",
     "eject": "cd frontend && react-scripts eject",
@@ -40,5 +40,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "dotenv-defaults": "^2.0.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "nodemon": "^2.0.6",
+    "socket.io": "^3.0.3",
+    "ws": "^7.4.0"
   }
 }
