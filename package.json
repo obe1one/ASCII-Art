@@ -1,0 +1,16 @@
+{
+  "name": "ASCII-Art",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/obe1one/ASCII-Art.git",
+  "author": "obe1 <b07902046@ntu.edu.tw>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd frontend && yarn start",
+    "server": "cd backend && nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.3"
+  }
+}
